@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Work Sans";
+}
+
+body {
+  background-color: hsl(275, 33%, 87%);
+}
+
+.background-image {
+  width: 100%;
+}
+
+.star-icon {
+  width: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(275, 100%, 97%);
+  width: 27.5rem;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  color: hsl(292, 42%, 14%);
+  padding: 1rem 0px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.item:hover {
+  color: hsl(292, 16%, 49%);
+}
+
+.content {
+  color: hsl(292, 16%, 49%);
+  font-size: 13.6px;
+  font-weight: 400;
+  display: none;
+}
+
+.active {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.icon>img {
+  width: 25px;
+  position: absolute;
+  right: 2rem;
+  transform: translate(0%, -10%);
+}
+
+.minus-icon {
+  display: none;
+}
+
+hr {
+  opacity: 0.1;
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0%;
+}
+
+@media (max-width:600px) {
+
+  .container{
+    width: 15rem;
+  }
+  
+}
