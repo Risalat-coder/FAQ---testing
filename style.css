@@ -83,6 +83,34 @@ footer {
 
 @media (max-width:600px) {
 
+  .container {
+    width: 13rem;
+    padding: 20px 80px 10px 20px;
+    border-radius: 2%;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  .star-icon{
+    width: 1.5rem;
+  }
+  .item{
+    width: 13rem; 
+
+  }
+  .content{
+    width: 16.4rem;
+  }
+  .icon>img{
+    width: 27px;
+    position: absolute;
+    right: 1.3rem;
+  }
+  hr{
+    margin-right:-3.8rem ;
+  }
+}
+
   .container{
     width: 15rem;
   }
