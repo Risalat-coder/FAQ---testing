@@ -11,7 +11,6 @@ body {
 }
 
 .background-image {
-  width: 100%;
 }
 
 .star-icon {
@@ -37,7 +36,7 @@ h1 {
   display: flex;
   flex-direction: row;
   color: hsl(292, 42%, 14%);
-  padding: 1rem 0px;
+  padding: 1.5rem 1rem 1rem 0px;
   font-weight: 600;
   font-size: 15px;
   cursor: pointer;
@@ -71,7 +70,7 @@ h1 {
 }
 
 hr {
-  opacity: 0.1;
+  opacity: 0.2;
   margin-top: 7px;
   margin-bottom: 0px;
 }
@@ -109,10 +108,4 @@ footer {
   hr{
     margin-right:-3.8rem ;
   }
-}
-
-  .container{
-    width: 15rem;
-  }
-  
 }
